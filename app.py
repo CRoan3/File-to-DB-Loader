@@ -77,7 +77,7 @@ def process_files(
             print(e)
             pass
         finally:
-            print(f'Error Processing {ds_name}')
+            print(f'Data Processing of {ds_name} is complete.')
 
 
 if __name__ == "__main__":
